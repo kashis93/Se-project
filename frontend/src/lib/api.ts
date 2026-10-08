@@ -39,10 +39,14 @@ export type Book = {
   ratingsAvg: number;
   ratingsCount: number;
   reviews: Review[];
+  matchReason?: string;
+  matchScore?: number;
 };
 export type RecommendationDebug = {
-  source?: "ml" | "fallback";
+  source?: "gemini-ai" | "hybrid-scoring" | "ml" | "fallback";
   reason?: string;
+  curatorNote?: string;
+  filter?: string;
   profile_chars?: number;
   ratings_events?: number;
   purchase_events?: number;
@@ -50,6 +54,7 @@ export type RecommendationDebug = {
   bookmark_events?: number;
   books_in_catalog?: number;
   excluded?: number;
+  relaxed_exclusions?: boolean;
   top_n?: number;
   weights?: { content: number; popularity: number; search: number };
   personalized?: boolean;
@@ -86,6 +91,18 @@ export const api = {
   review: (bookId: string, payload: { rating: number; comment?: string }) =>
     request<{ book: Book }>(`/books/${bookId}/review`, { method: "POST", body: JSON.stringify(payload) }),
   activity: () => request<{ activity: any }>("/activity/me"),
+  updateReadingGoal: (payload: {
+    monthlyTarget?: number;
+    completedBookIds?: string[];
+    toggleBookId?: string;
+  }) =>
+    request<{ readingGoal: { monthlyTarget: number; completedBookIds: string[]; updatedMonth: string }; activity: any }>(
+      "/activity/reading-goal",
+      {
+        method: "PUT",
+        body: JSON.stringify(payload)
+      }
+    ),
   recommendations: (params?: { seedBookId?: string; interest?: string; mood?: string; genre?: string }) => {
     const sp = new URLSearchParams();
     if (params?.seedBookId) sp.set("seedBookId", params.seedBookId);
@@ -93,7 +110,7 @@ export const api = {
     if (params?.mood) sp.set("mood", params.mood);
     if (params?.genre) sp.set("genre", params.genre);
     const query = sp.toString();
-    return request<{ items: Book[]; debug?: RecommendationDebug }>(
+    return request<{ items: Book[]; curatorNote?: string; debug?: RecommendationDebug }>(
       `/recommendations/me${query ? `?${query}` : ""}`
     );
   },

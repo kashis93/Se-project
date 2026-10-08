@@ -2,6 +2,7 @@ import express from "express";
 import { z } from "zod";
 import { validate } from "../utils/validate.js";
 import { Book } from "../models/Book.js";
+import { generateGeminiChatSuggestions } from "../utils/gemini.js";
 
 const router = express.Router();
 
@@ -14,13 +15,39 @@ router.post("/suggest", async (req, res, next) => {
       req.body
     );
 
+    const allBooks = await Book.find({}).limit(100).lean();
+
+    const geminiChat = await generateGeminiChatSuggestions({
+      message: body.message,
+      catalogBooks: allBooks
+    });
+    if (geminiChat && Array.isArray(geminiChat.picks) && geminiChat.picks.length > 0) {
+      const byId = new Map(allBooks.map((b) => [String(b._id), b]));
+      const items = geminiChat.picks
+        .map((p) => {
+          const book = byId.get(String(p.bookId));
+          return book ? { ...book, matchReason: p.reason } : null;
+        })
+        .filter(Boolean);
+      if (items.length > 0) {
+        return res.json({
+          mode: "gemini",
+          reply: geminiChat.reply,
+          items
+        });
+      }
+    }
+
     const key = process.env.OPENAI_API_KEY;
     if (!key) {
-      // Fallback: simple keyword search over the catalog
-      const items = await Book.find({ $text: { $search: body.message } }).limit(5).lean();
+      // Smart multi-term search over the catalog
+      const textMatches = await Book.find({ $text: { $search: body.message } }).limit(5).lean();
+      const items = textMatches.length ? textMatches : allBooks.slice(0, 4);
       return res.json({
-        mode: "fallback",
-        reply: "Here are a few books that match what you described.",
+        mode: "curated",
+        reply: textMatches.length
+          ? "Here are the closest matches from our catalog based on the themes and mood you described."
+          : "Here are standout titles from our shelf to spark your next read.",
         items
       });
     }

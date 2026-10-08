@@ -5,7 +5,9 @@
     "genre": ["Technology", "Programming"],
     "keywords": ["software", "craft", "engineering", "best practices"],
     "coverImageUrl": "https://covers.openlibrary.org/b/id/10521270-L.jpg",
-    "description": "A classic guide to pragmatic thinking and better software development."
+    "description": "A classic guide to pragmatic thinking and better software development.",
+    "ratingsAvg": 4.8,
+    "ratingsCount": 142
   },
   {
     "title": "Clean Code",
@@ -13,134 +15,308 @@
     "genre": ["Technology", "Programming"],
     "keywords": ["clean code", "refactoring", "design"],
     "coverImageUrl": "https://covers.openlibrary.org/b/id/9641983-L.jpg",
-    "description": "Practical advice on writing readable, maintainable code."
+    "description": "Practical advice on writing readable, maintainable code.",
+    "ratingsAvg": 4.6,
+    "ratingsCount": 198
   },
   {
     "title": "Dune",
     "author": "Frank Herbert",
     "genre": ["Science Fiction", "Adventure"],
-    "keywords": ["space", "politics", "desert", "prophecy"],
+    "keywords": ["space", "politics", "desert", "prophecy", "exciting"],
     "coverImageUrl": "https://covers.openlibrary.org/b/id/8107896-L.jpg",
-    "description": "Epic science fiction about power, ecology, and destiny on Arrakis."
+    "description": "Epic science fiction about power, ecology, and destiny on Arrakis.",
+    "ratingsAvg": 4.9,
+    "ratingsCount": 310
   },
   {
     "title": "The Hobbit",
     "author": "J.R.R. Tolkien",
     "genre": ["Fantasy", "Adventure"],
-    "keywords": ["dragon", "journey", "middle-earth"],
+    "keywords": ["dragon", "journey", "middle-earth", "cozy", "adventure"],
     "coverImageUrl": "https://covers.openlibrary.org/b/id/6979861-L.jpg",
-    "description": "A timeless fantasy adventure featuring Bilbo Baggins."
+    "description": "A timeless fantasy adventure featuring Bilbo Baggins.",
+    "ratingsAvg": 4.9,
+    "ratingsCount": 284
   },
   {
     "title": "Atomic Habits",
     "author": "James Clear",
-    "genre": ["Self-Help", "Psychology"],
-    "keywords": ["habits", "behavior change", "productivity"],
+    "genre": ["Nonfiction", "Psychology"],
+    "keywords": ["habits", "behavior change", "productivity", "thought-provoking"],
     "coverImageUrl": "https://covers.openlibrary.org/b/id/10594762-L.jpg",
-    "description": "A practical framework for building good habits and breaking bad ones."
+    "description": "A practical framework for building good habits and breaking bad ones.",
+    "ratingsAvg": 4.8,
+    "ratingsCount": 420
   },
   {
     "title": "The Psychology of Money",
     "author": "Morgan Housel",
-    "genre": ["Finance", "Psychology"],
-    "keywords": ["money", "behavior", "investing"],
+    "genre": ["Nonfiction", "Psychology"],
+    "keywords": ["money", "behavior", "investing", "thought-provoking"],
     "coverImageUrl": "https://covers.openlibrary.org/b/id/10523201-L.jpg",
-    "description": "Lessons about wealth, greed, and happiness through behavior and decisions."
+    "description": "Lessons about wealth, greed, and happiness through behavior and decisions.",
+    "ratingsAvg": 4.7,
+    "ratingsCount": 215
   },
   {
     "title": "Sapiens",
     "author": "Yuval Noah Harari",
     "genre": ["History", "Nonfiction"],
-    "keywords": ["humanity", "evolution", "civilization"],
+    "keywords": ["humanity", "evolution", "civilization", "thought-provoking"],
     "coverImageUrl": "https://covers.openlibrary.org/b/id/8370226-L.jpg",
-    "description": "A brief history of humankind from the Stone Age to today."
+    "description": "A brief history of humankind from the Stone Age to today.",
+    "ratingsAvg": 4.7,
+    "ratingsCount": 350
   },
   {
     "title": "The Alchemist",
     "author": "Paulo Coelho",
     "genre": ["Fiction", "Philosophy"],
-    "keywords": ["journey", "dreams", "purpose"],
+    "keywords": ["journey", "dreams", "purpose", "emotional", "cozy"],
     "coverImageUrl": "https://covers.openlibrary.org/b/id/8231996-L.jpg",
-    "description": "A fable about following your dreams and listening to your heart."
+    "description": "A fable about following your dreams and listening to your heart.",
+    "ratingsAvg": 4.5,
+    "ratingsCount": 265
   },
   {
     "title": "The Girl with the Dragon Tattoo",
     "author": "Stieg Larsson",
     "genre": ["Thriller", "Mystery"],
-    "keywords": ["investigation", "crime", "journalism"],
+    "keywords": ["investigation", "crime", "journalism", "exciting"],
     "coverImageUrl": "https://covers.openlibrary.org/b/id/8234141-L.jpg",
-    "description": "A gripping mystery blending family secrets, crime, and investigative journalism."
+    "description": "A gripping mystery blending family secrets, crime, and investigative journalism.",
+    "ratingsAvg": 4.6,
+    "ratingsCount": 190
   },
   {
     "title": "Pride and Prejudice",
     "author": "Jane Austen",
     "genre": ["Classics", "Romance"],
-    "keywords": ["society", "love", "manners"],
+    "keywords": ["society", "love", "manners", "cozy", "emotional"],
     "coverImageUrl": "https://covers.openlibrary.org/b/id/8091016-L.jpg",
-    "description": "A classic novel of manners, love, and misunderstandings."
+    "description": "A classic novel of manners, love, and misunderstandings.",
+    "ratingsAvg": 4.8,
+    "ratingsCount": 295
   },
   {
     "title": "Tomorrow, and Tomorrow, and Tomorrow",
     "author": "Gabrielle Zevin",
     "genre": ["Fiction", "Technology"],
-    "keywords": ["friendship", "games", "ambition", "creative work"],
+    "keywords": ["friendship", "games", "ambition", "creative work", "emotional"],
     "coverImageUrl": "https://covers.openlibrary.org/b/id/12769463-L.jpg",
-    "description": "A luminous novel about friendship, art, and the games we build together."
+    "description": "A luminous novel about friendship, art, and the games we build together.",
+    "ratingsAvg": 4.8,
+    "ratingsCount": 182
   },
   {
     "title": "Braiding Sweetgrass",
     "author": "Robin Wall Kimmerer",
     "genre": ["Nonfiction", "Nature"],
-    "keywords": ["ecology", "plants", "indigenous wisdom", "reciprocity"],
+    "keywords": ["ecology", "plants", "indigenous wisdom", "cozy", "thought-provoking"],
     "coverImageUrl": "https://covers.openlibrary.org/b/id/10561566-L.jpg",
-    "description": "A wise meditation on plants, reciprocity, and our relationship with the living world."
+    "description": "A wise meditation on plants, reciprocity, and our relationship with the living world.",
+    "ratingsAvg": 4.9,
+    "ratingsCount": 164
   },
   {
     "title": "Project Hail Mary",
     "author": "Andy Weir",
     "genre": ["Science Fiction", "Adventure"],
-    "keywords": ["space", "science", "survival", "friendship"],
+    "keywords": ["space", "science", "survival", "friendship", "exciting", "adventure"],
     "coverImageUrl": "https://covers.openlibrary.org/b/id/10909258-L.jpg",
-    "description": "A lone astronaut races against time to save humanity in a thrilling scientific mystery."
+    "description": "A lone astronaut races against time to save humanity in a thrilling scientific mystery.",
+    "ratingsAvg": 4.9,
+    "ratingsCount": 340
   },
   {
     "title": "The Midnight Library",
     "author": "Matt Haig",
     "genre": ["Fiction", "Philosophy"],
-    "keywords": ["possibility", "regret", "life", "hope"],
+    "keywords": ["possibility", "regret", "life", "hope", "emotional", "cozy"],
     "coverImageUrl": "https://covers.openlibrary.org/b/id/10586590-L.jpg",
-    "description": "Between life and death, a library offers Nora Seed the chance to try other lives."
+    "description": "Between life and death, a library offers Nora Seed the chance to try other lives.",
+    "ratingsAvg": 4.5,
+    "ratingsCount": 210
   },
   {
     "title": "Educated",
     "author": "Tara Westover",
     "genre": ["Memoir", "Nonfiction"],
-    "keywords": ["family", "education", "identity", "resilience"],
+    "keywords": ["family", "education", "identity", "resilience", "emotional"],
     "coverImageUrl": "https://covers.openlibrary.org/b/id/8231856-L.jpg",
-    "description": "A powerful memoir about education, self-invention, and leaving the world you know."
+    "description": "A powerful memoir about education, self-invention, and leaving the world you know.",
+    "ratingsAvg": 4.8,
+    "ratingsCount": 275
   },
   {
     "title": "The Name of the Wind",
     "author": "Patrick Rothfuss",
     "genre": ["Fantasy", "Adventure"],
-    "keywords": ["music", "magic", "legend", "coming of age"],
+    "keywords": ["music", "magic", "legend", "coming of age", "adventure", "exciting"],
     "coverImageUrl": "https://covers.openlibrary.org/b/id/8231851-L.jpg",
-    "description": "A gifted musician recounts the legend, love, and danger that shaped his life."
+    "description": "A gifted musician recounts the legend, love, and danger that shaped his life.",
+    "ratingsAvg": 4.8,
+    "ratingsCount": 230
   },
   {
     "title": "The Design of Everyday Things",
     "author": "Don Norman",
     "genre": ["Technology", "Design"],
-    "keywords": ["design", "psychology", "usability", "products"],
+    "keywords": ["design", "psychology", "usability", "products", "thought-provoking"],
     "coverImageUrl": "https://covers.openlibrary.org/b/id/8092374-L.jpg",
-    "description": "An accessible classic on why everyday objects work well—or fail their users."
+    "description": "An accessible classic on why everyday objects work well—or fail their users.",
+    "ratingsAvg": 4.7,
+    "ratingsCount": 148
   },
   {
     "title": "The Book Thief",
     "author": "Markus Zusak",
-    "genre": ["Historical Fiction", "Classics"],
-    "keywords": ["war", "words", "courage", "family"],
+    "genre": ["Historical Fiction", "Fiction"],
+    "keywords": ["war", "words", "courage", "family", "emotional"],
     "coverImageUrl": "https://covers.openlibrary.org/b/id/8231850-L.jpg",
-    "description": "In wartime Germany, a young girl finds refuge and resistance in the power of words."
+    "description": "In wartime Germany, a young girl finds refuge and resistance in the power of words.",
+    "ratingsAvg": 4.8,
+    "ratingsCount": 260
+  },
+  {
+    "title": "Designing Data-Intensive Applications",
+    "author": "Martin Kleppmann",
+    "genre": ["Technology", "Programming"],
+    "keywords": ["distributed systems", "databases", "architecture", "thought-provoking"],
+    "coverImageUrl": "https://covers.openlibrary.org/b/id/8508261-L.jpg",
+    "description": "The definitive guide to the big ideas behind reliable, scalable, and maintainable data systems.",
+    "ratingsAvg": 4.9,
+    "ratingsCount": 312
+  },
+  {
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "genre": ["Nonfiction", "Psychology"],
+    "keywords": ["cognition", "decision making", "behavioral economics", "thought-provoking"],
+    "coverImageUrl": "https://covers.openlibrary.org/b/id/7144968-L.jpg",
+    "description": "Nobel laureate Daniel Kahneman explores the two systems that drive the way we think.",
+    "ratingsAvg": 4.7,
+    "ratingsCount": 288
+  },
+  {
+    "title": "The Three-Body Problem",
+    "author": "Cixin Liu",
+    "genre": ["Science Fiction", "Mystery"],
+    "keywords": ["first contact", "astrophysics", "civilization", "exciting", "thought-provoking"],
+    "coverImageUrl": "https://covers.openlibrary.org/b/id/8235116-L.jpg",
+    "description": "A secret military project sends signals into space to establish contact with aliens, sparking an existential crisis.",
+    "ratingsAvg": 4.7,
+    "ratingsCount": 245
+  },
+  {
+    "title": "Circe",
+    "author": "Madeline Miller",
+    "genre": ["Fantasy", "Fiction"],
+    "keywords": ["mythology", "transformation", "solitude", "emotional", "adventure"],
+    "coverImageUrl": "https://covers.openlibrary.org/b/id/8281961-L.jpg",
+    "description": "A bold and subversive retelling of the goddess Circe, banished to a solitary island where she hones her craft.",
+    "ratingsAvg": 4.8,
+    "ratingsCount": 270
+  },
+  {
+    "title": "The Silent Patient",
+    "author": "Alex Michaelides",
+    "genre": ["Mystery", "Thriller"],
+    "keywords": ["psychotherapy", "twist", "obsession", "exciting"],
+    "coverImageUrl": "https://covers.openlibrary.org/b/id/8751330-L.jpg",
+    "description": "A criminal psychotherapist becomes obsessed with uncovering why a famous painter shot her husband and never spoke again.",
+    "ratingsAvg": 4.5,
+    "ratingsCount": 315
+  },
+  {
+    "title": "Klara and the Sun",
+    "author": "Kazuo Ishiguro",
+    "genre": ["Science Fiction", "Fiction"],
+    "keywords": ["artificial intelligence", "devotion", "love", "emotional", "thought-provoking"],
+    "coverImageUrl": "https://covers.openlibrary.org/b/id/10602460-L.jpg",
+    "description": "From her place in the store, Klara, an Artificial Friend with outstanding observational qualities, watches the behavior of humans.",
+    "ratingsAvg": 4.6,
+    "ratingsCount": 154
+  },
+  {
+    "title": "A Gentleman in Moscow",
+    "author": "Amor Towles",
+    "genre": ["Historical Fiction", "Fiction"],
+    "keywords": ["hotel", "charm", "friendship", "cozy", "emotional"],
+    "coverImageUrl": "https://covers.openlibrary.org/b/id/8231910-L.jpg",
+    "description": "Count Alexander Rostov is sentenced to spend the rest of his life inside the luxury Hotel Metropol across from the Kremlin.",
+    "ratingsAvg": 4.9,
+    "ratingsCount": 290
+  },
+  {
+    "title": "Deep Work",
+    "author": "Cal Newport",
+    "genre": ["Nonfiction", "Technology"],
+    "keywords": ["focus", "mastery", "craft", "productivity", "thought-provoking"],
+    "coverImageUrl": "https://covers.openlibrary.org/b/id/8232001-L.jpg",
+    "description": "Rules for focused success in a distracted world and cultivating rare, high-value cognitive concentration.",
+    "ratingsAvg": 4.7,
+    "ratingsCount": 225
+  },
+  {
+    "title": "Neuromancer",
+    "author": "William Gibson",
+    "genre": ["Science Fiction", "Technology"],
+    "keywords": ["cyberpunk", "matrix", "ai", "heist", "exciting", "adventure"],
+    "coverImageUrl": "https://covers.openlibrary.org/b/id/8231932-L.jpg",
+    "description": "Case was the sharpest data-thief in the matrix—until he crossed his employers and was hired for one final run.",
+    "ratingsAvg": 4.6,
+    "ratingsCount": 195
+  },
+  {
+    "title": "The Shadow of the Wind",
+    "author": "Carlos Ruiz Zafón",
+    "genre": ["Mystery", "Fiction"],
+    "keywords": ["barcelona", "cemetery of forgotten books", "gothic", "romance", "adventure"],
+    "coverImageUrl": "https://covers.openlibrary.org/b/id/8231954-L.jpg",
+    "description": "In postwar Barcelona, young Daniel selects a rare novel from the Cemetery of Forgotten Books and is drawn into a labyrinth of secrets.",
+    "ratingsAvg": 4.8,
+    "ratingsCount": 238
+  },
+  {
+    "title": "Piranesi",
+    "author": "Susanna Clarke",
+    "genre": ["Fantasy", "Mystery"],
+    "keywords": ["labyrinth", "infinite halls", "solitude", "wonder", "cozy", "thought-provoking"],
+    "coverImageUrl": "https://covers.openlibrary.org/b/id/10314450-L.jpg",
+    "description": "Piranesi lives in the House—an infinite labyrinth of halls lined with thousands of statues where an ocean imprisoned within the walls rises in tides.",
+    "ratingsAvg": 4.8,
+    "ratingsCount": 205
+  },
+  {
+    "title": "Normal People",
+    "author": "Sally Rooney",
+    "genre": ["Romance", "Fiction"],
+    "keywords": ["intimacy", "youth", "dublin", "relationships", "emotional"],
+    "coverImageUrl": "https://covers.openlibrary.org/b/id/8479576-L.jpg",
+    "description": "Connell and Marianne grow up in the same small town in rural Ireland, weaving in and out of each other's lives across their university years.",
+    "ratingsAvg": 4.5,
+    "ratingsCount": 198
+  },
+  {
+    "title": "The Seven Husbands of Evelyn Hugo",
+    "author": "Taylor Jenkins Reid",
+    "genre": ["Romance", "Historical Fiction"],
+    "keywords": ["hollywood", "glamour", "ambition", "secrets", "emotional", "exciting"],
+    "coverImageUrl": "https://covers.openlibrary.org/b/id/8314135-L.jpg",
+    "description": "Aging and reclusive Hollywood movie icon Evelyn Hugo is finally ready to tell the truth about her glamorous and scandalous life.",
+    "ratingsAvg": 4.8,
+    "ratingsCount": 330
+  },
+  {
+    "title": "The Left Hand of Darkness",
+    "author": "Ursula K. Le Guin",
+    "genre": ["Science Fiction", "Philosophy"],
+    "keywords": ["diplomacy", "winter planet", "culture", "journey", "thought-provoking", "adventure"],
+    "coverImageUrl": "https://covers.openlibrary.org/b/id/8231892-L.jpg",
+    "description": "A lone human emissary is sent to Winter, an alien world without gender prejudice, to bridge a galaxy-wide alliance.",
+    "ratingsAvg": 4.8,
+    "ratingsCount": 188
   }
 ]

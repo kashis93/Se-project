@@ -1,0 +1,8 @@
+{
+  "name": "BookRec",
+  "description": "AI-based Book Recommendation System with personalized hybrid recommendations, reading shelves, and interactive search.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

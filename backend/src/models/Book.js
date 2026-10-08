@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+import { createInMemoryModel, isInMemory } from "../utils/db.js";
 
 const ReviewSchema = new mongoose.Schema(
   {
@@ -27,5 +28,22 @@ const BookSchema = new mongoose.Schema(
 
 BookSchema.index({ title: "text", author: "text", description: "text", keywords: "text" });
 
-export const Book = mongoose.model("Book", BookSchema);
+const MongooseBook = mongoose.model("Book", BookSchema);
+const MemoryBook = createInMemoryModel("books", {
+  genre: [],
+  keywords: [],
+  coverImageUrl: "",
+  description: "",
+  ratingsAvg: 0,
+  ratingsCount: 0,
+  reviews: []
+});
+
+export const Book = new Proxy(MongooseBook, {
+  get(target, prop) {
+    const active = isInMemory ? MemoryBook : target;
+    const val = active[prop];
+    return typeof val === "function" ? val.bind(active) : val;
+  }
+});
 
