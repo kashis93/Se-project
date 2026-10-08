@@ -1,0 +1,146 @@
+[
+  {
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt, David Thomas",
+    "genre": ["Technology", "Programming"],
+    "keywords": ["software", "craft", "engineering", "best practices"],
+    "coverImageUrl": "https://covers.openlibrary.org/b/id/10521270-L.jpg",
+    "description": "A classic guide to pragmatic thinking and better software development."
+  },
+  {
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "genre": ["Technology", "Programming"],
+    "keywords": ["clean code", "refactoring", "design"],
+    "coverImageUrl": "https://covers.openlibrary.org/b/id/9641983-L.jpg",
+    "description": "Practical advice on writing readable, maintainable code."
+  },
+  {
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "genre": ["Science Fiction", "Adventure"],
+    "keywords": ["space", "politics", "desert", "prophecy"],
+    "coverImageUrl": "https://covers.openlibrary.org/b/id/8107896-L.jpg",
+    "description": "Epic science fiction about power, ecology, and destiny on Arrakis."
+  },
+  {
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "genre": ["Fantasy", "Adventure"],
+    "keywords": ["dragon", "journey", "middle-earth"],
+    "coverImageUrl": "https://covers.openlibrary.org/b/id/6979861-L.jpg",
+    "description": "A timeless fantasy adventure featuring Bilbo Baggins."
+  },
+  {
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "genre": ["Self-Help", "Psychology"],
+    "keywords": ["habits", "behavior change", "productivity"],
+    "coverImageUrl": "https://covers.openlibrary.org/b/id/10594762-L.jpg",
+    "description": "A practical framework for building good habits and breaking bad ones."
+  },
+  {
+    "title": "The Psychology of Money",
+    "author": "Morgan Housel",
+    "genre": ["Finance", "Psychology"],
+    "keywords": ["money", "behavior", "investing"],
+    "coverImageUrl": "https://covers.openlibrary.org/b/id/10523201-L.jpg",
+    "description": "Lessons about wealth, greed, and happiness through behavior and decisions."
+  },
+  {
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "genre": ["History", "Nonfiction"],
+    "keywords": ["humanity", "evolution", "civilization"],
+    "coverImageUrl": "https://covers.openlibrary.org/b/id/8370226-L.jpg",
+    "description": "A brief history of humankind from the Stone Age to today."
+  },
+  {
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "genre": ["Fiction", "Philosophy"],
+    "keywords": ["journey", "dreams", "purpose"],
+    "coverImageUrl": "https://covers.openlibrary.org/b/id/8231996-L.jpg",
+    "description": "A fable about following your dreams and listening to your heart."
+  },
+  {
+    "title": "The Girl with the Dragon Tattoo",
+    "author": "Stieg Larsson",
+    "genre": ["Thriller", "Mystery"],
+    "keywords": ["investigation", "crime", "journalism"],
+    "coverImageUrl": "https://covers.openlibrary.org/b/id/8234141-L.jpg",
+    "description": "A gripping mystery blending family secrets, crime, and investigative journalism."
+  },
+  {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "genre": ["Classics", "Romance"],
+    "keywords": ["society", "love", "manners"],
+    "coverImageUrl": "https://covers.openlibrary.org/b/id/8091016-L.jpg",
+    "description": "A classic novel of manners, love, and misunderstandings."
+  },
+  {
+    "title": "Tomorrow, and Tomorrow, and Tomorrow",
+    "author": "Gabrielle Zevin",
+    "genre": ["Fiction", "Technology"],
+    "keywords": ["friendship", "games", "ambition", "creative work"],
+    "coverImageUrl": "https://covers.openlibrary.org/b/id/12769463-L.jpg",
+    "description": "A luminous novel about friendship, art, and the games we build together."
+  },
+  {
+    "title": "Braiding Sweetgrass",
+    "author": "Robin Wall Kimmerer",
+    "genre": ["Nonfiction", "Nature"],
+    "keywords": ["ecology", "plants", "indigenous wisdom", "reciprocity"],
+    "coverImageUrl": "https://covers.openlibrary.org/b/id/10561566-L.jpg",
+    "description": "A wise meditation on plants, reciprocity, and our relationship with the living world."
+  },
+  {
+    "title": "Project Hail Mary",
+    "author": "Andy Weir",
+    "genre": ["Science Fiction", "Adventure"],
+    "keywords": ["space", "science", "survival", "friendship"],
+    "coverImageUrl": "https://covers.openlibrary.org/b/id/10909258-L.jpg",
+    "description": "A lone astronaut races against time to save humanity in a thrilling scientific mystery."
+  },
+  {
+    "title": "The Midnight Library",
+    "author": "Matt Haig",
+    "genre": ["Fiction", "Philosophy"],
+    "keywords": ["possibility", "regret", "life", "hope"],
+    "coverImageUrl": "https://covers.openlibrary.org/b/id/10586590-L.jpg",
+    "description": "Between life and death, a library offers Nora Seed the chance to try other lives."
+  },
+  {
+    "title": "Educated",
+    "author": "Tara Westover",
+    "genre": ["Memoir", "Nonfiction"],
+    "keywords": ["family", "education", "identity", "resilience"],
+    "coverImageUrl": "https://covers.openlibrary.org/b/id/8231856-L.jpg",
+    "description": "A powerful memoir about education, self-invention, and leaving the world you know."
+  },
+  {
+    "title": "The Name of the Wind",
+    "author": "Patrick Rothfuss",
+    "genre": ["Fantasy", "Adventure"],
+    "keywords": ["music", "magic", "legend", "coming of age"],
+    "coverImageUrl": "https://covers.openlibrary.org/b/id/8231851-L.jpg",
+    "description": "A gifted musician recounts the legend, love, and danger that shaped his life."
+  },
+  {
+    "title": "The Design of Everyday Things",
+    "author": "Don Norman",
+    "genre": ["Technology", "Design"],
+    "keywords": ["design", "psychology", "usability", "products"],
+    "coverImageUrl": "https://covers.openlibrary.org/b/id/8092374-L.jpg",
+    "description": "An accessible classic on why everyday objects work well—or fail their users."
+  },
+  {
+    "title": "The Book Thief",
+    "author": "Markus Zusak",
+    "genre": ["Historical Fiction", "Classics"],
+    "keywords": ["war", "words", "courage", "family"],
+    "coverImageUrl": "https://covers.openlibrary.org/b/id/8231850-L.jpg",
+    "description": "In wartime Germany, a young girl finds refuge and resistance in the power of words."
+  }
+]
